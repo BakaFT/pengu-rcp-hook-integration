@@ -136,7 +136,7 @@ export function load(context){
 
 ## postInit
 
-You can use this function to register a callback that triggers **after** a specified RCP is about to load.
+You can use this function to register a callback that triggers **after** a specified RCP is loaded.
 
 This is often used to hook provided API of RCPs.
 
