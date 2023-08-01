@@ -39,7 +39,7 @@ In next release, every plugin will have `three` lifespan function, they must be 
 ```javascript
 export function init(context) {
     // This function will be executed when V8 context created
-    // At this point, LCU rcps are not loaded except `rcp-fe-common-libs`
+    // At this point, almost no LCU rcps are not loaded 
     // you can add Hooks here
 }
 export function load() {
